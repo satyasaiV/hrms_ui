@@ -1,0 +1,154 @@
+* {
+  margin : 0;
+  padding : 0;
+} 
+.header {
+  position : fixed;
+  top: 0;
+  height: 60px;
+  left: 200px;
+  width: calc(100% - 200px);
+  font-size : 20px;
+  padding : 5px;
+  color : #26b7b7;;
+  background-color : #ffffff; 
+  box-shadow:  1px 0 3px 0 #555;
+  z-index: 1;
+}
+.img-icon{
+  width: 45px;
+}
+.account-container{
+  display: flex; 
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+}
+.dropdown-toggle:hover{
+cursor: pointer;
+}
+.dropdown-menu{
+  width: 182px;
+}
+.employee-name{
+  font-size: 14px;
+  font-weight: 300; 
+}
+.footer {
+  position : relative;
+  left : 0;
+  bottom : 0;
+  text-align : center;
+  width : 100%;
+  padding : 10px;
+}
+.sidebar {
+  position : fixed;
+  top : 0;
+  left : 0;
+  width : 200px;
+  background-color : #26b7b7;
+  height : 100%;
+  box-shadow:  1px 0 3px 0 #555;
+}
+.logoContainer {
+  height: 60px;
+  max-width : 200px;
+  padding : 5px 10px ;
+  background-color: #ffffff;
+  box-shadow:  -3px 0 10px 0 #555;
+}
+.logoLayout{
+  width: 175px;
+}
+.menuItemContainer {
+  padding : 20px 0px 0px 0px;
+  height : 85%;
+}
+.listItemContainer {
+  list-style-type : none;
+  width : 100%;
+  margin : 0;
+  padding : 0;
+}
+.menuButton {
+  display: block;
+  border-radius : 0 !important;
+  width : 100%; 
+  color: #ffffff; 
+  padding : 10px !important;
+  border : none !important;
+  text-decoration : none !important;
+  text-align : left;
+  font-size: 14px;
+}
+.menuButton:hover{
+  color: #26b7b7;
+}
+.accountButton{
+  display: block;
+  border-radius : 0 !important;
+  width : 100%; 
+  color: #26b7b7; 
+  padding : 10px !important;
+  border : none !important;
+  text-decoration : none !important;
+  text-align : left;
+  font-size: 14px;
+}
+.accountButton:hover{
+  color: #ffffff;
+  background-color: #26b7b7;
+}
+.dropdown-toggle::after{
+  border-top: .2em solid;
+  border-right: 0.2em solid transparent;
+  border-bottom: 0;
+  border-left: 0.2em solid transparent;
+}
+.listItem:hover {
+  background : #ffffff !important;
+  color: #26b7b7 !important;
+}
+.bodyContent {
+  margin-left: 190px;
+  padding : 30px 60px 60px;
+}
+.menuBar {
+  font-size : 20px;
+  line-height : 30px;
+  display : none;
+  width : 30px;
+  float : right;
+}
+#toggle {
+  display : none;
+}
+.navbarCollapse {
+  display : flex;
+}
+.hilight{
+  color: #26b7b7;
+}
+@media only screen and (max-width : 500px) {
+  #toggle {
+    display : block;
+    cursor : pointer;
+  }
+  .navbarCollapse {
+    display : none;
+  }
+  .bodyContent {
+    margin-left : 0px;
+    padding : 70px 20px ;
+  }
+  .header {
+    left : 0;
+    font-size : 14px;
+    z-index: 1;
+  }
+  .sidebar{
+    z-index: 1;
+  }
+} 

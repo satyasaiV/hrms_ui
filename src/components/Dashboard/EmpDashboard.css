@@ -1,0 +1,30 @@
+.dash-card{
+  height: 125px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.35);
+  margin-bottom: 1rem ;
+  color: #fff;
+}
+.designation-card{
+  background-color: #465161;
+}
+.project-card{
+  background-color: #14cc9e; 
+}
+.employee-card{
+  background-color: #04a9f5;
+}
+.department-card{
+  background-color: #f4c22b;
+}
+.headi{
+  background-color: #26b7b7;
+  color: #ffffff;
+}
+.posted-by {
+  color: #157575;
+  font-size: 12px;
+}
+table td{
+  font-size: 16px;
+  border: 0 !important;
+}

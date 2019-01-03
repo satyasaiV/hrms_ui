@@ -1,0 +1,73 @@
+.Profile-header{
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  align-items : center;
+}
+.Designation{
+  font-weight : 500;
+}
+.img-thumbnail{
+  padding: 0 !important;
+  border : 0 !important;
+}
+.Detail-card{
+  width : 250px;
+  height : 100px;
+  box-shadow : 2px 2px 1px 1px #5e80a9;
+}
+.data-group{
+  display : flex;
+  flex-direction : row;
+  width : 300px;
+}
+.details-group{
+  padding-top : 40px; 
+  display : flex;
+  flex-direction : row;
+  justify-content : space-between;
+  flex-wrap : wrap;
+}
+.label-value{
+  font-size : 16px;
+}
+.mb-3{
+  margin : 2rem 1rem !important;
+}
+.cards-show{
+  max-height : 450px;
+  display : flex;
+  flex-direction : row;
+}
+.photo-card{
+  width : 18rem;
+  box-shadow : 0 2px 12px 0 rgba(0,0,0,0.35);
+  height : 435px;
+}
+.information-card{
+  width : 18rem;
+  box-shadow : 0 2px 12px 0 rgba(0,0,0,0.35);
+  height : 435px;
+}
+.information-cards{
+  display : flex ;
+  flex-direction : row;
+  flex-wrap : wrap;
+}
+.cardTitle{
+  color : #26b7b7;
+  font-weight : 200;
+}
+.address-card{
+  width : 38rem;
+  box-shadow : 0 2px 12px 0 rgba(0,0,0,0.35);
+}
+
+@media only screen and (max-width  : 500px){
+  .img-thumbnail{
+    height : 100px;
+  }
+  .Detail-card{
+    width : 200px;
+  }
+}

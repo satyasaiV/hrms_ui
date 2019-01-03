@@ -1,0 +1,35 @@
+.employeeListContainer {
+  margin : 100px auto;
+}
+.employeeListHeader {
+  padding : 10px;
+  background : #5e80a9;
+  color : #fff;
+  padding-bottom : 0px;
+}
+.iconLink {
+  color : #5e80a9;
+  margin : 5px;
+}
+.iconFill {
+  padding : 8px !important;
+}
+@media only screen and (max-width : 600px) {
+  .employeeListContainer {
+    width : 100%;
+  }
+}
+
+.snackbar {
+  min-width : 250px; 
+  margin-left :-125px; 
+  background-color : #333;
+  color : #fff;
+  text-align : center;
+  border-radius : 2px;
+  padding : 16px; 
+  position : fixed; 
+  z-index : 1; 
+  left : 50%; 
+  bottom : 30px; 
+}

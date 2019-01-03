@@ -1,0 +1,58 @@
+.departments-card {
+  margin : 100px auto;
+}
+.departments-list{
+  box-shadow: 1px 0 20px rgba(0,0,0,.08);
+}
+.card-button {
+  margin : 10px auto !important;
+}
+.save-button {
+  width : 200px !important;
+  margin-left : 400px;
+}
+.label-width{
+  width : 150px;
+}
+.input-width{
+  width : 350px;
+}
+.cardTitles{
+  font-weight : 300;
+  font-size : 18px;
+}
+.add-icon{
+  margin-top :22px;
+  cursor : pointer;
+}
+.edit-icon{
+color : #3cba54;
+font-size : 18px;
+}
+.delete-icon{
+  color : #db3236;
+  font-size : 18px;
+}
+.snackbar {
+  min-width : 250px; 
+  margin-left :-125px; 
+  background-color : #333;
+  color : #fff;
+  text-align : center;
+  border-radius : 2px;
+  padding : 16px; 
+  position : fixed; 
+  z-index : 1; 
+  left : 50%; 
+  bottom : 30px; 
+}
+.float-button{
+  width : 60px;
+	height : 60px;
+  background-color : #f4c20d;
+	color : #FFF;
+	border-radius : 50px;
+	text-align : center;
+  box-shadow : 2px 2px 3px #999;
+  cursor : pointer;
+}
